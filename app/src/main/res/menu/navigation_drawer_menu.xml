@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/cloud_account_navItem"
+            android:title="Cloud account"
+            android:icon="@drawable/ic_android" />
+
+        <item
+            android:id="@+id/voice_recorder_navItem"
+            android:title="Voice Recorder"
+            android:icon="@drawable/ic_android" />
+    </group>
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings_navItem"
+            android:checkable="true"
+            android:title="Settings"
+            android:icon="@drawable/ic_android" />
+
+        <item
+            android:id="@+id/share_navItem"
+            android:checkable="true"
+            android:title="Share this app"
+            android:icon="@drawable/ic_android" />
+        <item
+            android:id="@+id/switch_to_pro_navItem"
+            android:checkable="true"
+            android:title="Switch to pro"
+            android:icon="@drawable/ic_android" />
+    </group>
+
+</menu>

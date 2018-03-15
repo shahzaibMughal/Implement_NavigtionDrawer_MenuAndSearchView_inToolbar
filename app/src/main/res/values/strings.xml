@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Call Recorder Toolbar Clone</string>
+    <string name="drawer_open">Navigation Drawer is open</string>
+    <string name="drawer_close">Navigation Drawer is close</string>
+</resources>
